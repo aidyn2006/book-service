@@ -17,7 +17,7 @@ func main() {
 	dbHost := "localhost"
 	dbPort := 5432
 	dbUser := "postgres"
-	dbPassword := "Na260206"
+	dbPassword := "${PASSWORD}"
 	dbName := "book"
 
 	dsn := fmt.Sprintf("host=%s port=%d user=%s password=%s dbname=%s sslmode=disable",
